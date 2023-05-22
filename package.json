@@ -1,0 +1,47 @@
+{
+  "name": "third-web-sample",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@thirdweb-dev/chains": "^0.1.15",
+    "@thirdweb-dev/react": "^3.11.11",
+    "@thirdweb-dev/sdk": "^3.10.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.10.0"
+  },
+  "scripts": {
+    "start": "../third-web-sample-1/node_modules/.bin/react-scripts start",
+    "build": "../third-web-sample-1/node_modules/.bin/react-scripts build",
+    "test": "../third-web-sample-1/node_modules/.bin/react-scripts test",
+    "eject": "../third-web-sample-1/node_modules/.bin/react-scripts eject",
+    "postinstall": "export THIRDWEB_CLI_SKIP_INTRO=true && npx thirdweb generate --skip-update-check"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "stream": "^0.0.2"
+  }
+}
